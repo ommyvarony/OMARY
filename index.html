@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            img{
+    height: 100%;
+
+}
+        </style>
+        <title>login and registration form</title>
+        <link rel="stylesheet"type="text/css" href="style.css">
+
+    </head>
+    <body>
+        <img src="picha.jpg" alt="swaumu kali">
+        <div class="hero">
+            <div class="form-box">
+                <div class="button-box">
+                <div id="btn"></div>
+                    <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                    <button type="button" class="toggle-btn"onclick="register()">Register</button>
+
+                </div><div class="social-icons">
+                    <img src="fb.png">
+                    <img src="tw.png">
+                    <img src="gp.png">
+                </div>
+                <form id="login" class="input-group">
+                   <input type="text" class="input-field" placeholder="user id" required>
+                   <input type="text" class="input-field" placeholder="enter password" required>
+                   <input type="checkbox" class="chech-box"><span>remember password</span>
+                   <button type="submit" class="submit-btn">Log In</button>
+                </form>
+                <form id="register" class="input-group">
+                    <input type="text" class="input-field" placeholder="user id" required>
+                    <input type="email" class="input-field" placeholder="email id" required>
+                    <input type="text" class="input-field" placeholder="enter password" required>
+                    <input type="checkbox" class="chech-box"><span>i agree to the terms & conditions</span>
+                    <button type="submit" class="submit-btn">Register</button>
+                </form>
+            </div>
+            
+        </div>
+    </body>
+   
+</html>
